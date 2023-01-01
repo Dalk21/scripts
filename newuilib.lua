@@ -50,7 +50,7 @@ function Dragify(Frame)
 end
 module.__index = module
 function module:New(name)
-    if name == 'Pendulum Hub' and os.date('*t').year > 2022 then
+    if name == 'Pendulum Hub' and os.date('*t').year > 2023 then
 	
 		
 		-- 100% not a time bomb
